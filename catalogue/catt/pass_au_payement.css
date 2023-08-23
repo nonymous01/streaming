@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/premium.jpg);
+    background-size: cover;   
+    height: 100%;
+}
+
+     .a{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+    } 
+
+    .bar{
+        /* border: 2px solid rgb(143, 70, 70); */
+        justify-content: end;
+        display: flex;
+        background-color: rgb(80, 64, 64);
+        height: 75px;
+        border-bottom:3px solid blue;
+        width: 100%;
+        
+    }
+    div ul{
+        display: flex;
+        list-style: none;
+    }
+    li input{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    div ul li a{
+        color: white;
+        font-size: 15px;
+        border: 1px solid black;
+
+    
+    }
+    ul{
+        border: 1px solid black;
+        transform: translateY(12px) ;   
+    }
+    .bar1{
+        border: 1px solid black;
+        
+    }
+    img.utilisateur{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+        border: 1px solid black;
+
+    }
+    img.catalogue{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+    }
+   
+    
+    .cat{
+        display: flex; 
+        position: absolute;
+        right: 300px;
+        margin-top: 10px;
+     
+    }
+    /* .cat1{
+        display: flex; 
+        position: absolute;
+        right: 400px;
+        margin-top: 10px;
+    } */
+    .uti{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-left: -12px;
+        border: 1px solid black;
+
+    }
+    .image{
+        left: 10px;
+        position: absolute;
+        height: 40px;
+        margin-top: 5px;
+        border: 1px solid black;
+
+        
+    }
+    
+/* fin de la bare */
+
+.catalogue1{
+    width: 600px;
+    height: 70px;
+    background:rgb(99, 187, 12) ;
+    position: absolute;
+    top: 92px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.catalogue2{
+    width: 600px;
+    height: 70px;
+    background:rgb(93, 158, 28) ;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+.vers{
+    background-color: rgb(22, 22, 22);
+    height: 500px;
+    width: 100%;
+   border: 2px solid red;
+   display: flex;
+   justify-content: center;
+   padding-top: 190px;
+}
+
+
+
+.compte{
+    background-color: rgb(134, 40, 40);
+    height: 270px;
+    width: 13vw;
+    border: 2px solid rgb(19, 40, 226);
+    
+   
+
+} 
+.compte1{
+    height: 300px;
+    z-index: 0;
+} 
+
+.cont_video{
+    width: 100%;
+    background: red;
+    height: 50%;
+}
+.cont_video1{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: rgb(126, 107, 107);
+    height: 50%;
+    font-size: 13px;
+}
+.akasa{
+position: absolute;
+left: 1px;
+top: 120px;
+}
+.akasa2{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    }
+.akasa1{
+    position: absolute;
+    right: 5px;
+    top: -1px;
+    }
+.vers1{
+    
+    background-color: rgb(15, 48, 42);
+    height: 400px;
+    width: 100%;
+    border: 2px solid rgb(136, 98, 98);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    position: 100px; 
+    position: relative;
+}
+

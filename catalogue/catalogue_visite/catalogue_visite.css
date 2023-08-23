@@ -1,0 +1,439 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(26, 26, 26);  
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+
+}
+.bar{
+    justify-content: end;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 75px;
+    border-bottom:3px solid blue;
+    
+
+}
+div ul{
+    display: flex;
+    list-style: none;
+}
+div ul li a{
+    color: white;
+
+}
+li input{
+    background-color: black;
+    color: white;
+    border: none;
+}
+ul{
+    border: 1px solid black;
+    transform: translateY(12px) ;   
+}
+.bar1{
+    border: 1px solid black;
+}
+img.utilisateur{
+    border: 1px solid black;
+    padding-left: 5px;
+    transform: translateY(-6px); 
+}
+img.catalogue{
+    border: 1px solid black;
+    padding-left: 5px;
+    transform: translateY(-6px); 
+}
+img.recherche{
+    border: 1px solid black;
+    padding-left: 5px;
+    transform: translateY(-10px);
+    position: relative;
+}
+.rech{
+    /* border: 1px solid rgb(164, 4, 4); */
+    width: 120px;
+    display: flex;
+    margin-left: -800px;
+    position: absolute;
+    margin-top: 10px;
+}
+.cat{
+    display: flex; 
+    position: absolute;
+    margin-left: -190px;
+    margin-top: 10px;
+ 
+}
+.uti{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left: -12px;
+}
+.image{
+    margin-left: -881px;
+    position: absolute;
+    height: 70px;
+    margin-top: -1px;
+    
+}
+.twt{
+    margin-left: -520px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -520px;
+}
+
+.pint{
+    margin-top: 20px;
+    margin-left: -420px;
+}
+
+
+
+/* Styles spécifiques à un écran de 13 pouces */
+@media (max-width: 1370px)  {
+
+    .bar{
+        /* border: 2px solid rgb(143, 70, 70); */
+        justify-content: end;
+        display: flex;
+        background-color: black;
+        height: 75px;
+        
+    }
+    div ul{
+        display: flex;
+        list-style: none;
+    }
+    div ul li a{
+        color: white;
+        font-size: 15px;
+    
+    }
+    ul{
+        border: 1px solid black;
+        transform: translateY(12px) ;   
+    }
+    .bar1{
+        border: 1px solid black;
+        
+    }
+    img.utilisateur{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+    }
+    img.catalogue{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+    }
+    img.recherche{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-5px);
+        position: relative;
+    }
+    .rech{
+        /* border: 1px solid rgb(164, 4, 4); */
+        width: 120px;
+        display: flex;
+        margin-left: -620px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    .cat{
+        display: flex; 
+        position: absolute;
+        margin-left: -190px;
+        margin-top: 10px;
+     
+    }
+    .uti{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-left: -12px;
+    }
+    .image{
+        margin-left: -561px;
+        position: absolute;
+        height: 50px;
+        margin-top: 5px;
+        
+    }
+    .twt{
+        margin-left: -520px;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -320px;
+    }
+    
+    .pint{
+        margin-top: 15px;
+        margin-left: -270px;
+    }
+     
+    
+}
+
+                /* fin bare de navigation */
+
+.collection{
+    /* background-color: rgb(130, 130, 148); */
+    position: absolute;
+    width: 1360px;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    background-color:black;
+    position: relative;
+    width: 1060px;
+    height: 300px; 
+    justify-content: center;
+    text-align: center;
+    display: flex; 
+}
+.col1{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(141, 28, 28);
+    clip-path: polygon(0 0, 61% 0, 92% 100%, 0% 100%);
+    margin-left: -820px;
+
+}
+ .col2{
+    width: 280px;
+    height: 300px;
+    background-color: rgb(212, 93, 93);
+    clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
+    margin-left: -530px;
+
+}
+
+.col3{
+    width: 280px;
+    height: 300px;
+    background-color: rgb(60, 161, 119);
+    clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);   
+    margin-left: -195px;
+    position: absolute;
+
+}
+
+.col4{
+    width: 280px;
+    height: 300px;
+    background-color: rgb(196, 55, 20);
+    clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
+    position: absolute;
+    margin-left: 120px;    
+}
+
+.col5{
+    width: 280px;
+    height: 300px;
+    background-color: rgb(19, 201, 73);
+    clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
+     position: absolute;
+    margin-left: 450px;
+} 
+.col6{
+    /* background-color: rgb(224, 30, 30); */
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 820px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+ .col7{
+    /* background-color: rgb(9, 49, 224); */
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    margin-left: 820px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+}
+.col8{
+    position: absolute;
+    /* background-color: aqua; */
+    height: 70px;
+    width: 150px;
+    margin-left: 870px;
+    margin-top: 220px;
+    padding-top: 30px;
+} 
+
+.dr{
+    /* background-color: rgb(94, 175, 175); */
+    height: 350px;
+    width: 1300Px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: -100Px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+ 
+}
+.top1{
+    height: 350px;
+    width: 1000Px;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: -62px;
+
+    
+}
+.top2{
+    height: 350px;
+    width: 1000Px;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 650px;
+    margin-left: -62px;
+ 
+}
+.top3{
+    height: 350px;
+    width: 1000Px;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 980px;
+    margin-left: -62px;
+
+ 
+}
+.top4{
+    height: 350px;
+    width: 1000Px;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1320px;
+    margin-left: -62px;
+
+ 
+}
+.top5{
+    height: 350px;
+    width: 1000Px;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1650px;
+    margin-left: -62px;
+
+    
+}
+.telecharger{
+    border: 1px solid red;
+    height: 40px;
+    justify-content: center;
+    padding-left: 100px;
+    margin-top: -40px;
+  
+}
+/* .univ{
+    margin-top: -40px;
+    margin-left: 10px;
+    position: absolute;
+    border: 1px solid red;
+} */
+/* .dr1{
+    background-color: rgb(133, 133, 155);
+    height: 300px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+.dr2{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 140px;
+    margin-top: -5px;
+    margin-left: 20px;
+    padding-top: 40px;
+    color: white;
+    
+}
+.drr img{
+    margin-left: 20px;
+}
+.drr1 img{
+    margin-left: 20px;
+}
+.drr2 img{
+    margin-left: 20px;
+}
+.drr3 img{
+    margin-left: 20px;
+}
+
+.bac{
+    background-color: rgb(0, 0, 0);
+    height: 220px;
+    width: 1400px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 900px;
+    gap: 150px;
+    padding-top: 30px;
+    color: white;
+
+}
+.cl1{
+    margin-left: -450px;
+    margin-top: 70px;
+    position: absolute;
+    font-size: 15px;
+}
+.cl2{
+    margin-left: 80px;
+    margin-top: 70px;
+    position: absolute;
+    font-size: 15px;
+}
+.cl3{
+    margin-left: 490px;
+    margin-top: 70px;
+    position: absolute;
+    font-size: 15px;
+}

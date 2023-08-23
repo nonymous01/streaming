@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/premium.jpg);
+    background-size: cover;   
+}
+
+@media (max-width: 1370px)  {
+
+    .bar{
+        /* border: 2px solid rgb(143, 70, 70); */
+        justify-content: end;
+        display: flex;
+        background-color: black;
+        height: 75px;
+        border-bottom:3px solid blue;
+        
+    }
+    div ul{
+        display: flex;
+        list-style: none;
+    }
+    li input{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    div ul li a{
+        color: white;
+        font-size: 15px;
+    
+    }
+    ul{
+        border: 1px solid black;
+        transform: translateY(12px) ;   
+    }
+    .bar1{
+        border: 1px solid black;
+        
+    }
+    img.utilisateur{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+    }
+    img.catalogue{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+    }
+    img.recherche{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-5px);
+        position: relative;
+    }
+    .rech{
+        /* border: 1px solid rgb(164, 4, 4); */
+        width: 120px;
+        display: flex;
+        margin-left: -620px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    .cat{
+        display: flex; 
+        position: absolute;
+        margin-left: -190px;
+        margin-top: 10px;
+     
+    }
+    .uti{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-left: -12px;
+    }
+    .image{
+        margin-left: -561px;
+        position: absolute;
+        height: 50px;
+        margin-top: 5px;
+        
+    }
+    .twt{
+        margin-left: -520px;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -320px;
+    }
+    
+    .pint{
+        margin-top: 15px;
+        margin-left: -270px;
+    }      
+}
+/* fin de la bare */
+.choix{   
+    position: absolute;
+    margin-left: 12px;
+    height: 50px;
+    width: 1360px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px; 
+    color: white;
+}
+
+.vers{
+    background-color: rgb(22, 22, 22);
+    height: 500px;
+    width: 1360px;
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.v1{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 350px;
+    position: absolute;
+}
+.v2{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 900px;
+    
+}
+.v3{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    margin-left: -900px;
+    margin-top: 50px;  
+}
+.essai{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+    height: 60px;
+    width: 260px;
+    padding-top: 10px;
+    margin-left:20px ;
+}
+.S1{
+    margin-top: 20px;
+    color: white;
+}
+
+.S2{
+    margin-top: 20px;
+    font-size: 12px;
+    color: white;
+}
+.S3{
+    margin-top: 20px;
+    color: rgb(161, 108, 10);
+    font-size: 12px;
+}
+
+.im {
+    height: 80px;
+    margin-left: 430px;
+    margin-top: 50px;
+}
+
+.année{
+    color: white;
+}

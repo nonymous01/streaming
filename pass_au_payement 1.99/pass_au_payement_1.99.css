@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/premium.jpg);
+    background-size: cover;   
+    height: 100%;
+}
+
+     .a{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+    } 
+
+    .bar{
+        /* border: 2px solid rgb(143, 70, 70); */
+        justify-content: end;
+        display: flex;
+        background-color: rgb(80, 64, 64);
+        height: 75px;
+        border-bottom:3px solid blue;
+        width: 100%;
+        position: fixed;
+        
+    }
+    div ul{
+        display: flex;
+        list-style: none;
+    }
+    li input{
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    div ul li a{
+        color: white;
+        font-size: 15px;
+        border: 1px solid black;
+
+    
+    }
+    ul{
+        border: 1px solid black;
+        transform: translateY(12px) ;   
+    }
+    .bar1{
+        border: 1px solid black;
+        
+    }
+    img.utilisateur{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+        border: 1px solid black;
+
+    }
+    img.catalogue{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-6px); 
+    }
+   
+    
+    .cat{
+        display: flex; 
+        position: absolute;
+        margin-left: -190px;
+        margin-top: 10px;
+     
+    }
+    .uti{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding-left: -12px;
+        border: 1px solid black;
+
+    }
+    .image{
+        left: 10px;
+        position: absolute;
+        height: 40px;
+        margin-top: 5px;
+        border: 1px solid black;
+
+        
+    }
+    
+/* fin de la bare */
+
+
+.vers{
+    background-color: rgb(22, 22, 22);
+    height: 510px;
+    width: 100%;
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   z-index: -1;
+   border: 2px solid red;
+}
+
+.text_payement{
+    padding-top: 22px;
+    color: rgb(0, 0, 0);
+
+}
+
+.compte{
+    background-color: rgb(107, 107, 107);
+    height: 300px;
+    width: 78vw;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 100px;
+    border: 2px solid rgb(141, 146, 194);
+
+      
+}
+
+.moyen_paiement{
+    background-color: rgb(255, 255, 255); 
+    height: 50px;
+    width: 20vw;
+    border-radius: 10px;
+    top: 30px;
+    padding-top: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(142, 27, 165);
+
+}
+
+/* form input{
+    width: 450px;
+    height: 40px;
+} */
+
+form{
+    margin-top: 80px;
+}
+
+.numero_carte{
+    width: 50vw;
+    height: 35px;
+    border-radius: 12px;
+    border: 2px solid rgb(55, 31, 163);
+
+
+}
+
+.date_ex{
+    margin-right: 30vw;
+    height: 35px;
+    border-radius: 12px;
+    
+
+
+}
+
+.securité{
+    margin-left: 50px;
+    position: absolute;
+    top: 150px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.envoi{
+    width: 15vw;
+    height: 35px;
+}
+label{
+    color: rgb(22, 22, 22);
+}
+
+
+input{
+    border: 1px solid black;
+}
