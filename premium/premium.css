@@ -8,7 +8,7 @@ body{
     background-size: cover;   
 }
 
-@media (max-width: 1370px)  {
+
 
     .bar{
         /* border: 2px solid rgb(143, 70, 70); */
@@ -45,6 +45,7 @@ body{
         border: 1px solid black;
         padding-left: 5px;
         transform: translateY(-6px); 
+        
     }
     img.catalogue{
         border: 1px solid black;
@@ -59,51 +60,43 @@ body{
     }
     .rech{
         /* border: 1px solid rgb(164, 4, 4); */
-        width: 120px;
+        width: 12vw;
         display: flex;
-        margin-left: -620px;
+        right: 600px;
         position: absolute;
         margin-top: 10px;
     }
     .cat{
         display: flex; 
         position: absolute;
-        margin-left: -190px;
-        margin-top: 10px;
+        right: 250px;
+        top: 10px;
      
     }
     .uti{
         display: flex;
-        margin-top: 10px;
-        margin-left: 30px;
-        padding-left: -12px;
-    }
-    .image{
-        margin-left: -561px;
-        position: absolute;
-        height: 50px;
-        margin-top: 5px;
+        position: relative;
+        top: 10px;
         
     }
-    .twt{
-        margin-left: -520px;
-        position: absolute;
-        margin-top: 15px;
-        margin-left: -320px;
-    }
+    .image{
     
-    .pint{
-        margin-top: 15px;
-        margin-left: -270px;
-    }      
-}
+        position: absolute;
+        height: 40px;
+        top: 7px;
+        left:2px;
+        
+    }
+
 /* fin de la bare */
 .choix{   
     position: absolute;
-    margin-left: 12px;
-    height: 50px;
-    width: 1360px;
-    margin-top: 150px;
+    top: 100px;
+    padding-top: 10px;
+    height: 60px;
+    width: 33vw;
+    left: 500px;
+    background: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -112,10 +105,10 @@ body{
 }
 
 .vers{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(19, 19, 19);
     height: 500px;
-    width: 1360px;
-    margin-top: 200px;
+    width: 99vw;
+    top: 200px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -124,44 +117,47 @@ body{
 }
 .v1{
     background-color: rgb(0, 0, 0);
-    width: 300px;
+    width: 23vw;
     height: 350px;
     position: absolute;
 }
 .v2{
     background-color: rgb(0, 0, 0);
-    width: 300px;
+    width: 23vw;
     height: 400px;
-    margin-top: 50px;
+    top: 50px;
     position: absolute;
-    margin-left: 900px;
+    right: 80Px;
     
 }
 .v3{
     background-color: rgb(0, 0, 0);
-    width: 300px;
+    width: 23vw;
     height: 350px;
     position: absolute;
-    margin-left: -900px;
+    left: 50px;
     margin-top: 50px;  
 }
 .essai{
     border: 2px solid rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     height: 60px;
-    width: 260px;
+    width: 19vw;
     padding-top: 10px;
-    margin-left:20px ;
+    position: relative;
+    left: 22px;
 }
 .S1{
-    margin-top: 20px;
-    color: white;
+    margin-top: 10%;
+    color: #ece4e4;
+    
+    
 }
 
 .S2{
-    margin-top: 20px;
+    margin-top: 10%;
     font-size: 12px;
     color: white;
 }
@@ -172,9 +168,10 @@ body{
 }
 
 .im {
-    height: 80px;
-    margin-left: 430px;
-    margin-top: 50px;
+    height: 50px;
+   position: relative;
+   left: 400px;
+   top: 30px;
 }
 
 .année{
