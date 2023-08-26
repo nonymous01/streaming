@@ -234,7 +234,7 @@ body{
     height: 70px;
     background:rgb(0, 0, 0);
     position: absolute;
-    top: -25px;
+    top: 1px;
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -280,6 +280,7 @@ strong{
     height: 400px;
     width: 100%;
     display: flex;
+    position: absolute;
     justify-content: center;
     padding-top: 80px;
     position: 100px; 
