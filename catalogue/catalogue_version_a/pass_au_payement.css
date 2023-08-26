@@ -141,9 +141,8 @@ top: 52px;
 .vers1{
     
     background-color: rgba(5, 2, 22, 0.979);
-    height: 400px;
+    height: 450px;
     width: 100%;
-    border: 1px solid rgb(2, 31, 192);
     display: flex;
     justify-content: center;
     padding-top: 80px;
