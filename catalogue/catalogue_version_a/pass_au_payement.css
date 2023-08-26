@@ -101,21 +101,11 @@ body{
     font-size: 40px;
     color: orangered;
 }
- /* .catalogue2{
-    width: 600px;
-    height: 70px;
-    background:rgb(69, 105, 32) ;
-    position: absolute;
-    top: 5px;
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-}  */
+
 .vers{
     background-color: rgba(5, 2, 22, 0.979);
     height: 500px;
     width: 100%;
-   /* border: 2px solid rgb(197, 183, 183); */
    display: flex;
    justify-content: center;
    padding-top: 190px;
@@ -124,19 +114,10 @@ body{
 
 
 .compte{
-     /* background-color: rgb(122, 94, 94);  */
     height: 370px;
     width: 13vw;
-     border: 2px solid rgb(0, 0, 0); 
-    
-    
-   
-
+     border: 2px solid  rgba(5, 2, 22, 0.979); 
 } 
-/* .compte1{
-    height: 300px;
-    z-index: 1;
-}  */
 
 .cont_video{
     width: 100%;
@@ -144,7 +125,7 @@ body{
 }
 .cont_video1{
     width: 100%;
-    background: rgb(22, 21, 21);
+    background: rgb(233, 233, 233);
     height: 50%;
     display: flex;
     justify-content: center;
@@ -156,16 +137,7 @@ position: absolute;
 left: -100px;
 top: 52px;
 }
-/* .akasa2{
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    }
-.akasa1{
-    position: absolute;
-    right: 5px;
-    top: -1px;
-    }  */
+
 .vers1{
     
     background-color: rgba(5, 2, 22, 0.979);
@@ -178,6 +150,5 @@ top: 52px;
     position: 100px; 
     position: relative;
 }
-
 
 

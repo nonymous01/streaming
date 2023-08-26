@@ -90,7 +90,6 @@ body{
         height: 50px;
         width: 230px;
         margin-top: 5px;
-        border: 1px solid rgb(153, 1, 1);
 
         
     }
@@ -141,10 +140,11 @@ body{
     background-size: 180px;
     background-repeat: no-repeat;
     transition: transform 0.3s ease-in-out;
+    border-radius: 30px 30px 0 0;
+
 }
 .goon img:hover{
     transform: translateY(10px);
-
 }
 
 .goon1{
@@ -155,6 +155,8 @@ body{
     background-image: url(../catalogue_visite/image_catalogue/femme.jpg);
     background-size: 180px;
     background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+
 }
 .goon2{
     height: 170px;
@@ -164,6 +166,8 @@ body{
     background-image: url(../catalogue_visite/image_catalogue/3301050.jpg);
     background-size: 180px;
     background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+
 }
 .goon3{
     height: 170px;
@@ -174,6 +178,8 @@ body{
     background-size: 180px;
     background-repeat: no-repeat;
     cursor: pointer;
+    border-radius: 30px 30px 0 0;
+
 }
 
 
@@ -186,6 +192,7 @@ body{
     background-size: 180px;
     background-repeat: no-repeat;
     animation: width 3s, heigth 4s;
+    border-radius: 30px 30px 0 0;
 
 }
 .goon5{
@@ -197,6 +204,7 @@ body{
     background-size: 180px;
     background-repeat: no-repeat;
     animation: width 3s, heigth 4s;
+    border-radius: 30px 30px 0 0;
 }
 .goon5:hover{
     height: 180px;
@@ -210,6 +218,7 @@ body{
     background-size: 180px;
     background-repeat: no-repeat;
     transition: width s, heigth 4s;
+    border-radius: 30px 30px 0 0;
 }
 .goon6:hover{
     height: 190px;
@@ -223,7 +232,8 @@ body{
     font-size: 15px;
     overflow: hidden;
     color: white; 
-    animation: width 2s, heigth 4s;   
+    animation: width 2s, heigth 4s; 
+  
 }
 .cont_video11{
     height: 180px;
@@ -291,8 +301,7 @@ strong{
 .compte{
     height: 270px;
     width: 13vw;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 11px  2px 12px rgb(46, 46, 46);
+    border-radius: 30px 30px 0 0;
 
 } 
 .compte1{
@@ -302,19 +311,21 @@ strong{
 
 .cont_video{
     width: 100%;
-    background: rgb(97, 97, 97);
+    background: rgb(255, 255, 255);
     height: 50%;
+    border-radius: 30px 30px 0 0;
 }
 .cont_video1{
     justify-content: center;
     text-align: center;
     width: 100%;
-    background: rgb(15, 15, 15);
+    background: rgb(0, 0, 0);
     height: 50%;
     font-size: 1vw;
     color: white;
     overflow: hidden;
-    
+    border-radius: 0 0 30px 30px;
+
 }
 .akasa{
 position: absolute;
@@ -325,9 +336,8 @@ top: 120px;
 .akasa2{
     position: absolute;
     left: -40px;
-    top: 10px;
-    transition: ;
-    }
+    top: 10px; 
+}
 
 .akasa1{
     position: absolute;
