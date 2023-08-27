@@ -5,7 +5,8 @@
 }
 body{
     background-image: url(image/premium.jpg);
-    background-size: cover;   
+    background-size: cover;  
+    background-repeat: no-repeat; 
 }
 
 
@@ -51,6 +52,13 @@ body{
         padding-left: 5px;
         transform: translateY(-6px); 
     }
+    .cat{
+        display: flex; 
+        position: absolute;
+        margin-left: -190px;
+        margin-top: 10px;
+     
+    }
     img.recherche{
         border: 1px solid black;
         padding-left: 5px;
@@ -65,13 +73,7 @@ body{
         position: absolute;
         margin-top: 10px;
     }
-    .cat{
-        display: flex; 
-        position: absolute;
-        margin-left: -190px;
-        margin-top: 10px;
-     
-    }
+  
     .uti{
         display: flex;
         margin-top: 10px;
@@ -91,21 +93,21 @@ body{
 /* fin de la bare */
 .choix{   
     position: absolute;
-    margin-left: 12px;
+    right: 300Px;
     height: 50px;
-    width: 1360px;
+    width: 63vw;
     margin-top: 150px;
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 35px; 
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .vers{
     background-color: rgb(22, 22, 22);
     height: 510px;
-    width: 1380px;
+    width: 100%;
     margin-top: 200px;
     position: absolute;
     display: flex;
@@ -116,7 +118,7 @@ body{
 
 .text_payement{
     padding-top: 22px;
-    color: white;
+    color: orangered;
 }
 .pint{
     left: 290px;
@@ -135,7 +137,7 @@ body{
 .compte{
     background-color: rgb(255, 255, 255);
     height: 90px;
-    width: 990px;
+    width: 50vw;
     position: absolute;
     border-radius: 15px;
     margin-top: 100px;
@@ -148,40 +150,41 @@ body{
     padding-left: 17px;
     top: 15px;
 
+
 }
 .payements{
     text-decoration: none;
     color: black;
     top: 12px;
-    width: 300px;
+    width: 30vw;
     position: absolute;
+
 }
 
 .motivation{
     
     height: 250px;
-    width: 1180px;
+    width: 58vw;
+    /* left: 500px; */
     position: absolute;
     top: 200px;
+
     
 }
 .motivation_image{
     justify-content: space-between;
-    margin: 70px;
-    margin-top: 32px;
+    width: 50vw;
     display: flex;
-
+    margin-top: 20px;
 }
 .motivation_texte{
     height: 100px;
-    width: 1130Px;
-    margin-left: 52px;  
+    width: 52vw;  
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     color: white;
     font-size: 13px;
-
 }
 .motivation_image img{
     border-radius: 20%;
@@ -189,6 +192,258 @@ body{
 
 
 
+
+@media screen and (min-width:434px) and  (max-width:1300px){ 
+    .choix{   
+        position: absolute;
+        right: 300Px;
+        height: 50px;
+        width: 63vw;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px; 
+        color: rgb(255, 255, 255);
+    }
+    
+    .vers{
+        background-color: rgb(22, 22, 22);
+        height: 510px;
+        width: 100%;
+        margin-top: 200px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .text_payement{
+        padding-top: 22px;
+    }
+    .pint{
+        display: none;
+    }
+    
+    .twt{
+        display: none;
+    }
+    .compte{
+        background-color: rgb(255, 255, 255);
+        height: 60px;
+        width: 50vw;
+        position: absolute;
+        border-radius: 15px;
+        margin-top: 100px;
+        
+        
+    }
+    
+    .img_operateur{
+        position: absolute;
+        padding-left: 17px;
+        top: 15px;
+    
+    
+    }
+    .payements{
+        text-decoration: none;
+        color: rgb(156, 31, 31);
+        top: 10px;
+        width: 25vw;
+        position: absolute;
+        font-size: 9px;
+    }
+    
+    .motivation{
+        
+        height: 250px;
+        width: 58vw;
+        /* left: 500px; */
+        position: absolute;
+        top: 200px;
+    
+        
+    }
+    .motivation_image{
+        width: 50vw;
+        margin-top: 20px;
+        gap: 22px;
+    }
+    .motivation_texte{
+        height: 100px;
+        width: 52vw;  
+        justify-content: space-between;
+        margin-top: 50px;
+        display: flex;
+        color: white;
+        font-size: 9px;
+    }
+    .motivation_image img{
+        border-radius: 20%;
+    }
+    .ss{
+        display: none;
+    }
+    .ww{
+        height: 20px;
+
+    }
+
+    img.recherche{
+        display: none;
+    }
+    .rech{
+       display: none;
+    }
+    .choix{
+        display: none;
+    }
+
+
+ }
+ @media screen and (min-width:300px) and  (max-width:654px){ 
+
+    .choix{   
+        position: absolute;
+        right: 300Px;
+        height: 50px;
+        width: 63vw;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px; 
+        color: rgb(255, 255, 255);
+    }
+    
+    .vers{
+        background-color: rgb(22, 22, 22);
+        height: 610px;
+        width: 100%;
+        margin-top: 200px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .text_payement{
+        padding-top: 22px;
+        font-size: 10px;
+    }
+    .pint{
+        display: none;
+    }
+    
+    .twt{
+        display: none;
+    }
+    .compte{
+        background-color: rgb(255, 255, 255);
+        height: 40px;
+        width: 50vw;
+        position: absolute;
+        border-radius: 15px;
+        margin-top: 100px;
+        
+        
+    }
+    
+    .img_operateur{
+        position: absolute;
+        padding-left: 17px;
+        top: 10px;
+    }
+    .yy{
+        height: 70px;
+    }
+    .payements{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        top: 5px;
+        width: 20vw;
+        position: absolute;
+        font-size: 5px;
+    }
+    
+    .motivation{
+        
+        height: 350px;
+        width: 100%;
+        position: absolute;
+        top: 200px;
+    }
+    .motivation_image{
+        width: 100%;
+        margin-top: 20px;
+        gap: 22px;
+        
+    }
+    .motivation_texte{
+        height: 100px;
+        width: 100%;  
+        justify-content: space-between;
+        margin-top: 50px;
+        display: flex;
+        color: white;
+        font-size: 9px;
+    }
+    .motivation_image img{
+        border-radius: 20%;
+    }
+    .ss{
+        display: none;
+    }
+    .ww{
+        height: 10px;
+
+    }
+
+    img.recherche{
+        display: none;
+    }
+    .rech{
+       display: none;
+    }
+    .choix{
+        display: none;
+    }
+    img.catalogue{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(2px); 
+        height: 20px;
+    }
+    .cat{
+        display: flex; 
+        position: absolute;
+        right: 120px;
+    }
+    .cat li a {
+        font-size: 10px;
+
+    }
+    .uti li a {
+        font-size: 10px;
+
+    }
+    .image{
+        left: 10px;
+        position: absolute;
+        height: 20px;
+    top: 5px;        
+    }
+    img.utilisateur{
+        border: 1px solid black;
+        padding-left: 5px;
+        transform: translateY(-2px); 
+        height: 20px;
+    }
+
+     }
 
 
 
