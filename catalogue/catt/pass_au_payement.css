@@ -68,6 +68,8 @@ body{
         position: absolute;
         right: 300px;
         margin-top: 10px;
+        gap: 20px;
+    
      
     }
     /* .cat1{

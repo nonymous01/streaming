@@ -6,6 +6,8 @@
 body{
     background-image: url(image/premium.jpg);
     background-size: cover;   
+    background-repeat: no-repeat;
+
 }
 
 

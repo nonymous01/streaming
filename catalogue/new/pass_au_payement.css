@@ -68,6 +68,7 @@ body{
         position: absolute;
         right: 300px;
         margin-top: 10px;
+        gap: 30px;
      
     }
     /* .cat1{
@@ -90,9 +91,7 @@ body{
         height: 50px;
         width: 230px;
         margin-top: 5px;
-        border: 1px solid rgb(153, 1, 1);
-
-        
+   
     }
     
 /* fin de la bare */
@@ -307,7 +306,6 @@ strong{
     height: 270px;
     width: 13vw;
     border: 2px solid rgb(0, 0, 0);
-    box-shadow: 11px  2px 12px rgb(46, 46, 46);
     border-radius: 30px 30px 0 0;
 
 } 
@@ -344,7 +342,6 @@ top: 120px;
     position: absolute;
     left: -40px;
     top: 10px;
-    transition: ;
     }
 
 .akasa1{
@@ -352,5 +349,101 @@ top: 120px;
     right: 5px;
     top: -1px;
     }
+
+    
+    
+    
+    @media screen and (min-width:510px) and (max-width:980px) {
+        #col1{
+            display: none;
+        }
+
+        .compte{
+            height: 150px;
+            width: 13vw;
+            border: 2px solid rgb(0, 0, 0);
+            box-shadow: 11px  2px 12px rgb(46, 46, 46);
+            border-radius: 30px 30px 0 0;
+        
+        }
+      
+       #re21{
+        height: 110px;
+        width: 100%;
+        overflow: hidden;
+        font-size: 12px;
+       }
+       .catalogue2{
+        width: 300px;
+       }
+        .image{
+            width: 130px;
+        }
+        .compte{
+            height: 170px;
+            width: 30vw;
+        
+        } 
+    }
+
+
+
+    @media screen and (min-width:310px) and (max-width:784px) {
+        #col1{
+            display: none;
+        }
+
+        .compte{
+            height: 150px;
+            width: 13vw;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 30px 30px 0 0;
+        
+        }
+      
+       #re21{
+        height: 110px;
+        width: 100%;
+        overflow: hidden;
+        font-size: 12px;
+       }
+       .catalogue2{
+        width: 300px;
+       }
+        .image{
+            width: 130px;
+        }
+
+        #sup{
+            display: none;
+         }
+        .compte{
+            height: 170px;
+            width: 30vw;
+        
+        } 
+        .catalogue2{
+            width: 250px;
+           }
+           .catalogue1 p{
+            width: 300px;
+            border: 1ps solid black;
+            font-size: 21px;
+            
+           }
+           .image{
+            width: 90px;
+            height: 30px;
+            top: 5px;
+           }
+           .uti li a {
+                display: none;
+           }
+           .cat {
+            left: -50px;
+            font-size: 10px;
+           }
+    }
+
 
 

@@ -1,7 +1,9 @@
 body{
     background-color: rgb(178, 164, 240);
-    background-image: url(../connexion/image/naruto.jpg);
+    background-image: url(./image/naruto.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .connexion{
