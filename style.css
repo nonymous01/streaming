@@ -121,6 +121,7 @@ input {
     background: black;
     text-align: center;
     /* border: 1px solid rgb(255, 51, 0); */
+
 }
 
 .coll {
@@ -132,7 +133,7 @@ input {
 
 #col1 {
     clip-path: polygon(0 0, 61% 0, 92% 100%, 0% 100%);
-    background-image: url(./image/dr\ stone.png);
+    background-image: url(./ima/a8.jpg);
     background-size: 100% 220px;
     background-repeat: no-repeat;
 
@@ -140,7 +141,7 @@ input {
 
 #col2 {
     clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
-    background-image: url(./image/death-note-anime-1920x1080.jpeg);
+    background-image: url(./ima/a3.jpg);
     background-size: 100% 220px;
     background-repeat: no-repeat;
     /* position: relative;  */
@@ -149,7 +150,7 @@ input {
 
 #col3 {
     clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
-    background-image: url(./image/6.jpeg);
+    background-image: url(./ima/a15.jpg);
     background-size: 100% 220px;
     background-repeat: no-repeat;
     /* position: relative;  */
@@ -158,7 +159,7 @@ input {
 
 #col4 {
     clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
-    background-image: url(./image/4.jpeg);
+    background-image: url(./ima/a18.jpg);
     background-size: 100% 220px;
     background-repeat: no-repeat;
     /* position: relative;  */
@@ -168,7 +169,7 @@ input {
 #col5 {
     clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
     background-repeat: no-repeat;
-    background-image: url(./image//IMG_20221230_112914.jpg);
+    background-image: url(./ima/a10.jpg);
     background-size: 100% 230px;
     /* position: relative; */
     margin-left: -30px;
@@ -183,6 +184,7 @@ input {
     width: 30%;
     margin-left: 100px;
     font-size: 20px;
+
 }
 
 #col6 p {
@@ -217,9 +219,68 @@ input {
     background-image: url(./image/naruto.jpg);
     background-size: cover;
     border-radius: 30px 30px 0 0;
-
+   
 }
 
+
+.coupe {
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+    background-image: url(./ima/a9.jpg);
+    background-size: cover;
+    animation: ys 3s infinite;
+}
+
+#coupe1 {   
+    background-image: url(./ima/a3.jpg);
+    background-size: cover;
+    animation: ys 3s infinite;
+}
+@keyframes ys {
+    0%{
+        background-image: url(./ima/a14.jpg);
+        background-size: cover; 
+    }
+    
+}
+#coupe3 {   
+    background-image: url(./ima/a18.jpg);
+    background-size: cover;
+    animation: ys 4s infinite;
+}
+@keyframes ys {
+    0%{
+        background-image: url(./ima/a11.jpg);
+        background-size: cover; 
+    }
+}
+    
+/* #coupe1 {   
+    background-image: url(./image/naruto.jpg);
+    background-size: cover;
+    animation: ys 3s infinite;
+}
+@keyframes ys {
+    0%{
+        background-image: url(./image/dr\ stone.png);
+        background-size: cover; 
+    }
+    
+}
+
+#coupe3 {   
+    background-image: url(./image/font2.jpg);
+    background-size: cover;
+    animation: ys 3s infinite;
+}
+@keyframes ys {
+    0%{
+        background-image: url(./image/dr\ stone.png);
+        background-size: cover; 
+    }
+    
+} */
 .coup2 {
     background-color: rgb(0, 0, 0);
     height: 50%;
