@@ -109,7 +109,7 @@ body{
 .vers{
     background-color: rgb(19, 19, 19);
     height: 500px;
-    width: 99vw;
+    width: 100%;
     top: 200px;
     position: absolute;
     display: flex;
@@ -251,7 +251,7 @@ body{
     
  }
 
- @media screen and (min-width:280px) and  (max-width:599px){
+ @media screen and (min-width:382px) and  (max-width:599px){
     .rech{
         display: none;
     }
@@ -260,14 +260,15 @@ body{
     }
     .v1{
         background-color: rgb(0, 0, 0);
-        width: 20vw;
+        width: 35vw;
         height: 250px;
         position: absolute;
         font-size: 5px;
+        bottom: 0;
     }
     .v2{
         background-color: rgb(0, 0, 0);
-        width: 20vw;
+        width: 35vw;
         height: 250px;
         top: 50px;
         position: absolute;
@@ -275,19 +276,19 @@ body{
     }
     .v3{
         background-color: rgb(0, 0, 0);
-        width: 20vw;
+        width: 35vw;
         height: 250px;
         position: absolute;
         left: 50px;
         margin-top: 50px;  
     }
     .essai{
-        border: 2px solid rgb(255, 255, 255);
+        border: 2px solid rgb(0, 0, 0);
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
-        font-size: 5px;
+        font-size: 8px;
         height: 30px;
-        width: 13vw;
+        width: 29vw;
         padding-top: 10px;
         position: relative;
         left: 12px;
@@ -295,19 +296,19 @@ body{
     .S1{
         margin-top: 10%;
         color: #f06363;
-        font-size: 7px;
+        font-size: 8px;
         
     }
     
     .S2{
         margin-top: 10%;
-        font-size: 7px;
+        font-size: 9px;
         color: rgb(236, 231, 231);
     }
     .S3{
         margin-top: 20px;
         color: orangered;
-        font-size: 3px;
+        font-size: 5px;
     }
     
     .im {
@@ -326,6 +327,111 @@ body{
     .image{
         width: 80px;
         height: 40px;
+    }
+    .vers{
+        background-color: rgb(54, 52, 52);
+        height: 600px;
+        width: 100%;
+        top: 200px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+ }
+
+ @media screen and (min-width:284px) and  (max-width:384px){
+    .rech{
+        display: none;
+    }
+    .choix{   
+       display: none;
+    }
+    .v1{
+        background-color: rgb(0, 0, 0);
+        width: 35vw;
+        height: 250px;
+        position: absolute;
+        font-size: 5px;
+        bottom: 140px;
+        left: 100px;
+    }
+    .v2{
+        background-color: rgb(0, 0, 0);
+        width: 35vw;
+        height: 250px;
+        top: 50px;
+        position: absolute;
+        right: 50Px;
+        left: 100px;
+    }
+    .v3{
+        background-color: rgb(0, 0, 0);
+        width: 35vw;
+        height: 250px;
+        position: absolute;
+        left: 100px;
+        margin-top: 50px; 
+        bottom: 420px; 
+    }
+    .essai{
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 8px;
+        height: 30px;
+        width: 29vw;
+        padding-top: 10px;
+        position: relative;
+        left: 12px;
+    }
+    .S1{
+        margin-top: 10%;
+        color: #f06363;
+        font-size: 8px;
+        
+    }
+    
+    .S2{
+        margin-top: 10%;
+        font-size: 9px;
+        color: rgb(236, 231, 231);
+    }
+    .S3{
+        margin-top: 20px;
+        color: orangered;
+        font-size: 5px;
+    }
+    
+    .im {
+       display: none;
+    }
+    
+    .année{
+        color: white;
+        font-size: 10px;
+    }
+    
+    .cat{
+        display: none;
+     
+    }
+    .image{
+        width: 80px;
+        height: 40px;
+    }
+    .vers{
+        background-color: rgb(54, 52, 52);
+        height: 990px;
+        width: 100%;
+        top: 200px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
     }
 
  }
