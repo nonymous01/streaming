@@ -8,7 +8,7 @@ body{
 
 .connexion{
     height: 430px;
-    width: 560px;
+    width: 46vw;
     text-align: center;
     position: absolute;
     background-color: rgb(17, 17, 17);
@@ -31,33 +31,31 @@ body{
 }
 input{
     height: 40px;
-    width: 330px;
+    width: 24vw;
     margin-top: 50px;
     position: relative;
     border-radius: 3px;
     border: none;
     color: white;
-    background-color: rgba(14, 12, 10, 0.863);
+    background-color: rgba(26, 22, 18, 0.863);
 
 
     
     
 }
 input[type="submit"] {
-    background-color: rgb(236, 224, 248);
     border: none;
     height: 40px;
-    width: 331px;
+    width: 24vw;
     border-radius: 3px;
-    margin-left: -163px;
     margin-top: 50px;
+    position: relative;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 .conn{
     width: 100Px;
-    margin-left: 30px;
     position: absolute;
     margin-top: 10px;
     cursor: pointer;
@@ -67,26 +65,133 @@ input[type="submit"] {
     position: absolute;
 }
 .idd{
-    margin-top: 38px;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
     position: absolute;
-    margin-left: -165px;
+   
 }
 
 
 .dev{
     position: absolute;
-    margin-top: 100px;
-    margin-left: 150px;
+    margin: 0 auto;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1rem;
+    bottom: auto;
 }
 .dev a{
-  color: black;
+    color: rgb(143, 140, 140);
 }
 .cn{
-  margin-top: 70px;
   font-size: 35px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
+@media screen and (min-width:250px) and (max-width:1100px) {
 
+    body{
+        background-color: rgb(0, 0, 0);
+       background-image: none;
+    }
+    
+    .connexion{
+        height: 230px;
+        width: 76vw;
+        text-align: center;
+        position: absolute;
+        background-color: rgb(34, 33, 33);
+        border-radius: 25px;
+        margin-top: 120px;
+        padding-top: 50px;
+        color: white;
+    
+        
+    }
+    .pri{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      
+    }
+  
+    
+    input[type="submit"] {
+        border: none;
+        height: 20px;
+        width: 24vw;
+        top: -45px;
+        border-radius: 3px;
+        bottom: 42px;
+        font-size: 0.6rem;
 
+        position: relative;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
 
+    
+        input{
+            top: -42px;
+            height: 30px;
+            width: 54vw;
+            position: relative;
+            border-radius: 3px;
+            border: none;
+            color: white;
+            background-color: rgba(26, 22, 18, 0.863);
+        }
+    
+    .conn{
+        width: 1rem;
+        font-size: 0.8rem;
+        position: relative;
+        cursor: pointer;
+        top: -32px;
+    }
+    .id{
+        position: absolute;
+        font-size:11px;
+        top: 0.8;
+        top: 20px;
+
+    }
+    .idd{
+        margin: 0 auto;
+        left: 41%;
+        top: 140px;
+        font-size:0.8rem;
+        transform: translate(-100%,-20%);
+        position: absolute;  
+    }
+   
+    
+    .dev{
+        position: absolute;
+        margin: 0 auto;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 1rem;
+        bottom: auto;
+    }
+    .dev a{
+        color: rgb(184, 184, 184);
+        font-size: 10px;
+        position: relative;
+    }
+    .dev p{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        position: relative;
+        top: -10px;
+    }
+    .cn{
+        font-size: 1.2rem;
+      color: rgb(236, 226, 226);
+      position: relative;
+    }
+}

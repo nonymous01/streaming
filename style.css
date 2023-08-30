@@ -136,7 +136,14 @@ input {
     background-image: url(./ima/a8.jpg);
     background-size: 100% 220px;
     background-repeat: no-repeat;
+    animation: yss 5s infinite;
+}
 
+@keyframes yss {
+    0%{
+        background-image: url(./ima/a5.jpg);
+        background-size: cover; 
+    }
 }
 
 #col2 {
@@ -146,6 +153,14 @@ input {
     background-repeat: no-repeat;
     /* position: relative;  */
     margin-left: -50px;
+    animation: yss1 5s infinite;
+
+}
+@keyframes yss1 {
+    0%{
+        background-image: url(./ima/a1.jpg);
+        background-size: cover; 
+    }
 }
 
 #col3 {
@@ -155,7 +170,16 @@ input {
     background-repeat: no-repeat;
     /* position: relative;  */
     margin-left: -40px;
+    animation: yss2 5s infinite;
 }
+@keyframes yss2 {
+    0%{
+        background-image: url(./ima/a12.jpg);
+        background-size: cover; 
+    }
+    
+}
+
 
 #col4 {
     clip-path: polygon(63% 0, 0 0, 36% 100%, 96% 100%);
@@ -164,6 +188,15 @@ input {
     background-repeat: no-repeat;
     /* position: relative;  */
     margin-left: -40px;
+    animation: yss3 5s infinite;
+
+}
+@keyframes yss3 {
+    0%{
+        background-image: url(./ima/a14.jpg);
+        background-size: cover; 
+    }
+    
 }
 
 #col5 {
@@ -174,8 +207,15 @@ input {
     /* position: relative; */
     margin-left: -30px;
     border: 1px solid rgb(156, 130, 120);
+    animation: yss4 5s infinite;
 
-
+}
+@keyframes yss4 {
+    0%{
+        background-image: url(./ima/a15.jpg);
+        background-size: cover; 
+    }
+    
 }
 
 #col6 {
@@ -286,7 +326,7 @@ input {
     height: 50%;
     width: 100%;
     padding-top: 40px;
-    color: orangered;
+    color: rgb(185, 58, 12);
     gap: 40px;
     overflow: hidden;
     border-radius: 0 0 30px 30px;
@@ -357,6 +397,7 @@ input {
         border: 1px solid orangered;
     }
 }
+
 
 
 
@@ -442,6 +483,8 @@ input {
     .bac {
         background-color: rgb(0, 0, 0);
         height: 340px;
+          color: orangered;
+        
         width: 100%;
 
         font-size: 9px;
@@ -542,6 +585,8 @@ input {
     .bac {
         height: 380px;
         padding-top: 80px;
+        gap: 5px;
+        font-size: 10px;
     }
 
     #col6 p {
@@ -570,7 +615,7 @@ input {
 
     .contenaire {
         width: 100%;
-        background-color: orangered;
+        background-color: rgb(46, 24, 16);
     }
 
     .dr {
@@ -585,6 +630,16 @@ input {
     #ff{
         display: none;
     }
+    h2{
+        font-size: 9px;
+    }
+    .caa{
+        height: 20px;
+    }
+    .name{
+        height: 20Px;
+    }
+    
 }
 
  
