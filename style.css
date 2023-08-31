@@ -351,6 +351,20 @@ input {
     overflow: hidden;
 
 }
+.texte1 a{
+    color: orangered;
+
+}
+.texte2 a{
+    color: orangered;
+
+}
+.texte3 a{
+    color: orangered;
+
+}
+
+
 
 .fille {
     position: absolute;
@@ -367,7 +381,7 @@ input {
         display: none;
     }
 
-    .dr {
+    .dr {QUI NOUS SOMME
         height: 300px;
         border: none;
     }
@@ -410,7 +424,7 @@ input {
         display: none;
     }
 
-    .dr {
+    .dr {QUI NOUS SOMME
         height: 200px;
         border: none;
     }
