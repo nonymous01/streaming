@@ -179,11 +179,16 @@ form{
 }
 
 .securité{
-    margin-left: 50px;
+    right:192px;
     position: absolute;
     top: 150px;
     height: 35px;
     border-radius: 12px;
+}
+.securités{
+    position: absolute;
+    top: 135px;
+    right: 230px;
 }
 
 .envoi{

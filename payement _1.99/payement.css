@@ -144,6 +144,14 @@ body{
     
     
 }
+.ss{
+    position: relative;
+    left: 42px;
+}
+.yy{
+    position: relative;
+    left: 26px;
+}
 
 .img_operateur{
     position: absolute;
