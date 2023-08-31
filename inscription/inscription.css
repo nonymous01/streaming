@@ -33,7 +33,7 @@ input{
     border-radius: 3px;
     border: none;
     color: white;
-    background-color: rgba(14, 12, 10, 0.863);
+    background-color: rgba(107, 102, 98, 0.863);
 
 
 }
@@ -69,6 +69,11 @@ input[type="submit"] {
     position: absolute;
 }
 .idd{
+    margin-top: 38px;
+    position: absolute;
+    margin-left: -160px;
+}
+.idd1{
     margin-top: 38px;
     position: absolute;
     margin-left: -160px;
