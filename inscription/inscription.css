@@ -83,7 +83,7 @@ input[type="submit"] {
 .dev{
     position: absolute;
     margin-top: 80px;
-    margin-left: 150px;
+    left: 13vw;
 }
 .dev a{
   color: rgb(143, 140, 140);
@@ -95,7 +95,7 @@ input[type="submit"] {
 }
 .pp{
     position: absolute;
-    margin-left: 160px;
+    left: 11vw;
     font-size: 10px;
 }
 
